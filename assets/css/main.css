@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LoveCraft is a romantic creation platform with seven unique Makers for custom letters, gifts, stories, surprises, slideshows, cards, and coupons." />
+    <title>LoveCraft | Daily Wish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/components.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="container nav">
+          <a class="brand" href="#top" aria-label="LoveCraft home">
+            <span class="brand-mark">♥</span>
+            <span>LoveCraft</span>
+          </a>
+          <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#gallery">Examples</a>
+            <a href="/admin/index.html">Admin</a>
+          </div>
+          <a class="btn btn-primary" href="#features">Explore Tools</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero container">
+          <div class="hero-copy">
+            <span class="eyebrow">Daily Wish</span>
+            <h1>Create Something Special for Someone Special.</h1>
+            <p>
+              Design romantic letters, thoughtful gifts, animated surprises, and digital keepsakes that feel personal,
+              joyful, and beautifully shareable.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#features">Explore Tools</a>
+              <a class="btn btn-secondary" href="./makers/love-letter.html">Start a Letter</a>
+            </div>
+            <ul class="hero-stats" aria-label="LoveCraft highlights">
+              <li><strong>7</strong><span>creative makers</span></li>
+              <li><strong>1-click</strong><span>share links</span></li>
+              <li><strong>Secure</strong><span>Supabase-backed</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="card card-hero letter-card">
+              <div class="mini-header">
+                <span>For My Love</span>
+                <span>❤</span>
+              </div>
+              <h3>Always Yours</h3>
+              <p>
+                Every moment with you feels like the beginning of a beautiful story.
+              </p>
+            </div>
+            <div class="card card-hero gift-card">
+              <div class="gift-box">
+                <span class="lid"></span>
+                <span class="box"></span>
+              </div>
+            </div>
+            <div class="blob blob-pink"></div>
+            <div class="blob blob-purple"></div>
+            <div class="sparkle sparkle-one">✦</div>
+            <div class="sparkle sparkle-two">✦</div>
+          </div>
+        </section>
+
+        <section id="features" class="section container">
+          <div class="section-heading">
+            <span class="eyebrow">Seven makers</span>
+            <h2>Design a memory worth keeping.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card pink">
+              <div class="feature-icon">✉️</div>
+              <h3>Love Letter Maker</h3>
+              <p>Craft heartfelt letters with elegant layouts, envelopes, custom colors, and shareable links.</p>
+              <a href="./makers/love-letter.html">Open maker</a>
+            </article>
+
+            <article class="feature-card lavender">
+              <div class="feature-icon">🎁</div>
+              <h3>Birthday Gift Maker</h3>
+              <p>Create digital birthday gifts with cards, vouchers, messages, and reveal animations.</p>
+              <a href="./makers/birthday-gift.html">Open maker</a>
+            </article>
+
+            <article class="feature-card mint">
+              <div class="feature-icon">📖</div>
+              <h3>Love Story Maker</h3>
+              <p>Turn your timeline into a beautiful storybook with chapters, photos, and transitions.</p>
+              <a href="./makers/love-story.html">Open maker</a>
+            </article>
+
+            <article class="feature-card blue">
+              <div class="feature-icon">🎉</div>
+              <h3>Digital Surprise Maker</h3>
+              <p>Build surprise reveals, hidden messages, and joyful moments with animation and sound.</p>
+              <a href="./makers/digital-surprise.html">Open maker</a>
+            </article>
+
+            <article class="feature-card cream">
+              <div class="feature-icon">🎵</div>
+              <h3>Music & Photo Slideshow</h3>
+              <p>Curate photos, captions, music, and transitions into an unforgettable slideshow.</p>
+              <a href="./makers/slideshow.html">Open maker</a>
+            </article>
+
+            <article class="feature-card peach">
+              <div class="feature-icon">💌</div>
+              <h3>Interactive Card Maker</h3>
+              <p>Create animated greeting cards with messages, effects, and mobile-friendly interactions.</p>
+              <a href="./makers/interactive-card.html">Open maker</a>
+            </article>
+
+            <article class="feature-card rose">
+              <div class="feature-icon">🎫</div>
+              <h3>Love Coupon & Promise Maker</h3>
+              <p>Design romantic promises and digital coupon books with style and personality.</p>
+              <a href="./makers/love-coupon.html">Open maker</a>
+            </article>
+          </div>
+        </section>
+
+        <section id="how-it-works" class="section alt-bg">
+          <div class="container">
+            <div class="section-heading center">
+              <span class="eyebrow">Simple workflow</span>
+              <h2>Build, preview, save, and share.</h2>
+            </div>
+
+            <div class="steps">
+              <div class="step-card">
+                <span class="step-number">1</span>
+                <h3>Choose a Maker</h3>
+                <p>Select the perfect template for your moment.</p>
+              </div>
+              <div class="step-card">
+                <span class="step-number">2</span>
+                <h3>Customize</h3>
+                <p>Write personal messages, upload photos, and adjust visual details.</p>
+              </div>
+              <div class="step-card">
+                <span class="step-number">3</span>
+                <h3>Preview</h3>
+                <p>See the design live before you publish or share it.</p>
+              </div>
+              <div class="step-card">
+                <span class="step-number">4</span>
+                <h3>Share securely</h3>
+                <p>Generate a unique link and send it with confidence.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery" class="section container">
+          <div class="section-heading">
+            <span class="eyebrow">Inspiration</span>
+            <h2>Beautiful examples for every milestone.</h2>
+          </div>
+
+          <div class="showcase-grid">
+            <div class="showcase-item">
+              <div class="showcase-preview preview-one"></div>
+              <h3>Love Letter</h3>
+            </div>
+            <div class="showcase-item">
+              <div class="showcase-preview preview-two"></div>
+              <h3>Birthday Surprise</h3>
+            </div>
+            <div class="showcase-item">
+              <div class="showcase-preview preview-three"></div>
+              <h3>Storyboard</h3>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>
+            <a class="brand footer-brand" href="#top">
+              <span class="brand-mark">♥</span>
+              <span>LoveCraft</span>
+            </a>
+          </div>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="mailto:dailywish.admin@gmail.com">Contact</a>
+          </div>
+          <p>© <span id="year"></span> Daily Wish</p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>
